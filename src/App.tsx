@@ -37,7 +37,6 @@ import "./customize.scss";
 import "./override.scss";
 
 const Context = React.createContext({ name: "Default" });
-
 const exceptionRoutes = ["/", "/invest", "/feedback"];
 
 const App = () => {
